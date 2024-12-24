@@ -1,0 +1,97 @@
+/* -----------------CSS CODE START--------------------- */
+
+body {
+
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: url(img/clctr.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+#clctr {
+
+font-family: Arial, sans-serif;
+background: #b48d60;
+border-radius: 15px;
+max-width: 500px;
+overflow: hidden;
+
+}
+
+#display {
+
+width: 100%;
+padding: 20px;
+font-size: 5rem;
+text-align: left;
+border: none;
+background: #684f34;
+color: #fff;
+
+}
+
+
+#keys {
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 15px;
+padding: 25px;
+
+}
+
+
+
+button {
+
+width: 100px;
+height: 100px;
+border-radius: 50px;
+border: none;
+background: #684f34;
+color: #fff;
+font-weight: bold;
+font-size: 3rem;
+cursor: pointer;
+
+}
+
+
+button:hover {
+
+  background: #ca8d46;
+
+}
+
+button:active {
+
+  background: #f3b36a;
+  color: #222f3e;
+
+}
+
+
+.oprtr-btn{
+
+background: #744a1e;
+
+}
+
+.oprtr-btn:hover {
+
+  background: #ad702e;
+
+}
+
+
+.oprtr-btn:active {
+
+  background: #da8d3b;
+
+}
